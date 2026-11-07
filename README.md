@@ -1,69 +1,32 @@
-# [Start Bootstrap - Business Casual](https://startbootstrap.com/theme/business-casual/)
+# Café Antigua — plantilla gratis de landing page
 
-[Business Casual](https://startbootstrap.com/theme/business-casual/) is a multipurpose website theme for [Bootstrap](https://getbootstrap.com/) created by [Start Bootstrap](https://startbootstrap.com/). This theme features a landing page, about page, blog page, and a contact page along with various custom styles and components.
+Landing page para una marca de café de especialidad de Antigua Guatemala. **Gratis y open source (MIT)**:
+usala para tu cafetería, tostaduría o finca.
 
-## Preview
+**Demo:** https://cafe.neuralcodelab.com
 
-[![Business Casual Preview](https://assets.startbootstrap.com/img/screenshots/themes/business-casual.png)](https://startbootstrap.github.io/startbootstrap-business-casual/)
+![Café Antigua](assets/og.jpg)
 
-**[View Live Preview](https://startbootstrap.github.io/startbootstrap-business-casual/)**
+## Qué incluye
 
-## Status
+- Portada a pantalla completa, origen con cifras animadas, 3 cafés con notas de cata y precio,
+  proceso de la finca a la taza, cafetería con horario, testimonios y llamado a pedir por **WhatsApp**.
+- HTML, CSS y JavaScript puros: **sin frameworks ni build**. Abrí `index.html` y listo.
+- Responsive con menú para celular, accesible (navegación con teclado, textos alternativos,
+  respeta «reducir movimiento») y liviano (imágenes WebP).
 
-[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/StartBootstrap/startbootstrap-business-casual/master/LICENSE)
-[![npm version](https://img.shields.io/npm/v/startbootstrap-business-casual.svg)](https://www.npmjs.com/package/startbootstrap-business-casual)
-[![Build Status](https://travis-ci.org/StartBootstrap/startbootstrap-business-casual.svg?branch=master)](https://travis-ci.org/StartBootstrap/startbootstrap-business-casual)
-[![dependencies Status](https://david-dm.org/StartBootstrap/startbootstrap-business-casual/status.svg)](https://david-dm.org/StartBootstrap/startbootstrap-business-casual)
-[![devDependencies Status](https://david-dm.org/StartBootstrap/startbootstrap-business-casual/dev-status.svg)](https://david-dm.org/StartBootstrap/startbootstrap-business-casual?type=dev)
+## Personalizar
 
-## Download and Installation
+1. **Textos y precios:** `index.html`.
+2. **Colores:** variables al inicio de `css/styles.css` (`--terracota`, `--espresso`, `--oro`…).
+3. **WhatsApp:** cambiá `50200000000` por tu número en el enlace `wa.me` de `index.html`.
+4. **Fotos:** reemplazá las de `assets/` por las tuyas (mismos nombres).
 
-To begin using this template, choose one of the following options to get started:
+## Publicar
 
-* [Download the latest release on Start Bootstrap](https://startbootstrap.com/theme/business-casual/)
-* Install via npm: `npm i startbootstrap-business-casual`
-* Clone the repo: `git clone https://github.com/StartBootstrap/startbootstrap-business-casual.git`
-* [Fork, Clone, or Download on GitHub](https://github.com/StartBootstrap/startbootstrap-business-casual)
+Es un sitio estático: subilo a Cloudflare, GitHub Pages, Netlify o cualquier hosting.
+Este repo se publica con `npx wrangler deploy` (ver `wrangler.jsonc`).
 
-## Usage
+---
 
-### Basic Usage
-
-After downloading, simply edit the HTML and CSS files included with the template in your favorite text editor to make changes. These are the only files you need to worry about, you can ignore everything else! To preview the changes you make to the code, you can open the `index.html` file in your web browser.
-
-### Advanced Usage
-
-After installation, run `npm install` and then run `npm start` which will open up a preview of the template in your default browser, watch for changes to core template files, and live reload the browser when changes are saved. You can view the `gulpfile.js` to see which tasks are included with the dev environment.
-
-#### Gulp Tasks
-
-* `gulp` the default task that builds everything
-* `gulp watch` browserSync opens the project in your default browser and live reloads when changes are made
-* `gulp css` compiles SCSS files into CSS and minifies the compiled CSS
-* `gulp js` minifies the themes JS file
-* `gulp vendor` copies dependencies from node_modules to the vendor directory
-
-You must have npm installed globally in order to use this build environment.
-
-## Bugs and Issues
-
-Have a bug or an issue with this template? [Open a new issue](https://github.com/StartBootstrap/startbootstrap-business-casual/issues) here on GitHub or leave a comment on the [template overview page at Start Bootstrap](https://startbootstrap.com/theme/business-casual/).
-
-## About
-
-Start Bootstrap is an open source library of free Bootstrap templates and themes. All of the free templates and themes on Start Bootstrap are released under the MIT license, which means you can use them for any purpose, even for commercial projects.
-
-* <https://startbootstrap.com>
-* <https://twitter.com/SBootstrap>
-
-Start Bootstrap was created by and is maintained by **[David Miller](https://davidmiller.io/)**.
-
-* <https://davidmiller.io>
-* <https://twitter.com/davidmillerhere>
-* <https://github.com/davidtmiller>
-
-Start Bootstrap is based on the [Bootstrap](https://getbootstrap.com/) framework created by [Mark Otto](https://twitter.com/mdo) and [Jacob Thorton](https://twitter.com/fat).
-
-## Copyright and License
-
-Copyright 2013-2020 Start Bootstrap LLC. Code released under the [MIT](https://github.com/StartBootstrap/startbootstrap-business-casual/blob/gh-pages/LICENSE) license.
+Hecho por [NeuralCodeLab](https://neuralcodelab.com/plantillas-gratis) · Más plantillas gratis en neuralcodelab.com

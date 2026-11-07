@@ -1,0 +1,7 @@
+// Sitio estático servido por Cloudflare Workers. Deploy: npx wrangler deploy
+{
+  "name": "cafe-antigua",
+  "compatibility_date": "2026-09-01",
+  "assets": { "directory": ".", "not_found_handling": "404-page" },
+  "routes": [{ "pattern": "cafe.neuralcodelab.com", "custom_domain": true }]
+}
